@@ -1,0 +1,154 @@
+MySQL 
+
+
+DBMS(DatBase Managemnet System)
+
+Relational - 관계형 데이터베이스
+
+Document   - 비관계형 데이터베이스
+Key-value    - 비관계형 데이터베이스
+
+
+
+ORM(Object Ralation Model)
+데이터베이스 (테이블 - 엑셀 시트)-- Class  
+
+CRUD
+Create - 데이터를 입력
+Read - 저장된 데이터를 읽어 오는 것
+Update - 수정
+Delete - 삭제
+
+
+Query(질의어)Language
+
+
+Sever 데이터를 처리 하는 기술 
+- JPA :쿼리를 많이 사용 안해도 됨
+- Mybatis :100% 쿼리를 사용하여 작업
+
+raw data(원시데이터)
+
+
+
+무결성
+올바른 데이터들을 저장하도록 함
+영속성
+한번 저장된 데이터는 잘 저장되어있어야하는?
+
+pk (primary key )  : not null; , 유일하다 . 
+fk(foreign key)  
+둘의 관계..?
+* 1- pk
+  다쪽 - fk
+
+
+
+
+
+SQL(Structured Query Language) --구조적 질의어(시퀄)
+
+DDL(DataBase Definition Language) -데이터베이스 정의어
+-데이터베이스를 생성할때 , 수정/삭제 
+
+**DML(DataBase Manipulation Language) - 데이터베이스 조작어 
+-데이티터베이스를 조작할 때 사용
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CMD  
+
+> ipconfig
+
+>netstat -an
+
+localhost - 내 컴퓨터 
+    = 
+12.0.0.1 -내 컴퓨터
+
+0.0.0.0 - 모든 IP주소 
+
+localhost:8080 -(localhost) 호스트 주소 : (8080) port
+
+
+* 컴퓨터 port란?
+
+https://hanamon.kr/%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac-%ea%b8%b0%eb%b3%b8-ip-%ec%a3%bc%ec%86%8c%ec%99%80-%ed%8f%ac%ed%8a%b8-port/
+
+TCP -정확히 가르켜서 쓰는것
+UPD - 
+
+
+
+
+MySQL 다운로드 
+
+https://dev.mysql.com/downloads/file/?id=536356
+
+1.
+Full - Next- Excute
+
+이름은 Root 
+
+비밀번호 1111
+            1111
+
+마지막 체크 두개 x
+
+CMD
+
+mysql -uroot -p
+
+환경변수 
+프로그램파일스- mysql 서버 8.0  -bin - mysql.exe 실행할 애 
+
+Path 
+시스템변수 path - 새로 만들기  - 주소복사 - 확인 ~
+
+workbench - 쿼리를 잘 사용하게 되면  쓰는게`~
+
+
+
+schema(스키마) -구조 
+
+
+cmd
+
+mysql -uroot -p
+
+show databases;
+
+use world;
+
+show tables;
+
+describe city;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://app.diagrams.net/
+

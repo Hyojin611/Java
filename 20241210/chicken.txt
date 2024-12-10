@@ -1,0 +1,110 @@
+클래스 생성
+
+1. 클래스 생성
+
+ㄱ. 멤버변수는 private으로 선언한다.
+ㄴ. getter와 setter를 통해서만 
+    외부에서 값을 저장하거나,
+    요청할 수 있다.
+ㄷ. 기본적으로 defalut constructor 를 갖는다.
+ㄹ. 단, 사용자가 인자를 갖는 생성자를 만들 경우
+    기본 생성자는 반드시 필요하다.
+ㅁ. new 해서 쓴다.
+
+
+
+
+    //get -->가져오는거 getter
+    // public String getModel() {
+    // return this.model;}
+    
+    //set -->저장하는거 setter
+    // public void setModel(String model){
+    // this.model = model;}
+
+
+
+
+   //Setter : private 값에 할당
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    //Getter : private 값을 요청
+    public String getModel(){
+        return this.model;
+    }
+
+
+
+
+myClass --> chicken 패키지를 생성
+
+class name : Chicken
+
+brand
+menu
+price
+
+클래스생성
+
+myClass --> ChickenMain 생성
+
+교촌("교촌", "간장치킨", 21000);
+bbq("비비큐","황금올리브",23000);
+jadam
+  brand = "자담 치킨"
+  menu = "간장순살치킨"
+  price =19000
+
+
+------> 생성
+
+출력 
+교촌 간장치킨을 21000에 주문했습니다.
+비비큐 황금올리브치킨을 21000에 주문했습니다.
+자담치킨 간장순살치킨을 21000에 주문했습니다.
+
+
+
+
+
+
+
+
+
+**자동차 클래스
+
+src- > carPackage 생성
+- class name : Car
+
+-member
+ -brand : 현대, 현대기아, 삼성  // 안바뀜 
+ -name : 그랜저, k5, sm6
+ -power: 2000                    //안바뀜  
+ -color : 흰색, 검정 , 회색
+ -navigation : true, false
+ -speed = 0
+
+$ brand 와 power, name는 출고 시 결정 // getter o setter x (그랜저로 출고했는데 제네시스로 바꿀 수 x)
+$ navigation , color는 출고 후 결정
+  speedUp()
+  speedDown()
+
+---speedUp과speedDown은 매 실행시 마다 5km증감
+---speed====0되면 멈췄습니다.
+---speed 0km보다 커지면 
+   출발합니다.
+   현재 속도는 몇 km 입니다.
+---speed 30km를 넘으면 
+   과속입니다.
+   현재 30km를 유지합니다.
+
+- class name CarMain (main)
+
+출력
+
+나의 애마 000은 00브랜드 000cc 입니다.
+색상은 00이고, 네비게이션은 있습니다.(없습니다.)
+
+
