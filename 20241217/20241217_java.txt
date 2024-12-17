@@ -1,0 +1,26 @@
+stream 다루는 아이 : collection
+
+대표적인 collection: 배열, ArrayList ,Map
+
+stream에서 많이 사용하는 collection: 배열, ArrayList 
+
+[Tomas, Adward, Jack] - > [Adward, Jack]  : filter  //필요한 것만 추출해서 가지고옴 원본이 안바뀜
+
+[Tomas, Adward, Jack] - > [5,6,4] : map   // 스트림을 통해서 가공되어 원본바뀜
+ 				   // 원본이 재활용이 안됨.
+
+*필터 , 맵 두개가 같이 존재할 수 있음 
+
+
+*
+int = 3;   값
+
+
+Integer i = 3;   객체
+i -----> Integer Obeject 주소 --> primitive 로 변경해줘야함 . 
+
+// 합계출력 (Integer(Obeject) ---> primitive 변경)
+        int sumValue = integerList.stream()
+                .mapToInt(x -> x.intValue())
+                .sum();
+        System.out.println("리스트의 합은 : " + sumValue);
